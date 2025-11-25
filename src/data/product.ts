@@ -20,7 +20,7 @@ export const products: Product[] = [
         precio: 500,
         stock: 10,
         descripcion: "Encordado lineal artesanal • Madera de pino lustrado • Estilo nórdico minimalista",
-        imagen: "src/assets/Products/silla1.jpeg"
+        imagen: "/products/banqueta-linea.jpeg"
     },
     {
         nombre: "Banqueta Modelo Trama",
@@ -28,7 +28,7 @@ export const products: Product[] = [
         precio: 500,
         stock: 10,
         descripcion: "Trenzado en cuadrícula • Diseño rústico-moderna • Resistente y cómoda",
-        imagen: "src/assets/Products/silla2.jpeg"
+        imagen: "/products/banqueta-trama.jpeg"
     },
     {
         nombre: "Banqueta Modelo Arka",
@@ -36,7 +36,7 @@ export const products: Product[] = [
         precio: 500,
         stock: 10,
         descripcion: "Patrón combinado exclusivo • Inspirado en diseño escandinavo moderno",
-        imagen: "src/assets/Products/silla3.jpeg"
+        imagen: "/products/banqueta-arka.jpeg"
     },
 
 ];
