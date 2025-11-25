@@ -1,3 +1,7 @@
+import silla1 from "../assets/products/silla1.jpeg";
+import silla2 from "../assets/products/silla2.jpeg";
+import silla3 from "../assets/products/silla3.jpeg";
+
 export interface Product {
     nombre: string,
     id: number,
@@ -18,7 +22,7 @@ export const products: Product[] = [
         precio: 500,
         stock: 10,
         descripcion: "Encordado lineal artesanal • Madera de pino lustrado • Estilo nórdico minimalista",
-        imagen: "public/products/silla1.jpeg"
+        imagen: silla1
     },
     {
         nombre: "Banqueta Modelo Trama",
@@ -26,7 +30,7 @@ export const products: Product[] = [
         precio: 500,
         stock: 10,
         descripcion: "Trenzado en cuadrícula • Diseño rústico-moderna • Resistente y cómoda",
-        imagen: "public/products/silla2.jpeg"
+        imagen: silla2
     },
     {
         nombre: "Banqueta Modelo Arka",
@@ -34,7 +38,7 @@ export const products: Product[] = [
         precio: 500,
         stock: 10,
         descripcion: "Patrón combinado exclusivo • Inspirado en diseño escandinavo moderno",
-        imagen: "public/products/silla3.jpeg"
+        imagen: silla3
     },
 
 ];
